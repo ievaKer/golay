@@ -1,3 +1,5 @@
+import Golay.Companion.decode
+import Golay.Companion.encode
 import utils.StringUtils
 
 fun main() {

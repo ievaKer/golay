@@ -1,7 +1,5 @@
 package utils
 
-import java.util.*
-
 object StringUtils {
     fun stringToBinaryArray(input: String): List<Int> {
 //        Remove any symbols that are not 0 or 1
