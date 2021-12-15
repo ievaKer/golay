@@ -39,7 +39,7 @@ fun main() {
 
             entered = readLine()
             if (entered?.length != 24)  {
-                println("Wrong string length. Please enter 12 bits.")
+                println("Wrong string length. Please enter 24 bits.")
             } else if (("[^01]".toRegex()).find(entered) != null) {
                 println("Please enter only 0 or 1.")
             } else {
